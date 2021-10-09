@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KITAB.CRUD.Products.Domain\KITAB.CRUD.Products.Domain.csproj" />
+    <ProjectReference Include="..\KITAB.CRUD.Products.Infra\KITAB.CRUD.Products.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
